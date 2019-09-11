@@ -1,7 +1,6 @@
 /* change these */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800);
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500&display=swap');
 
 * {
   box-sizing: border-box;
@@ -25,14 +24,14 @@
 */
 
 :root {
-  --bg-color: #000;
-  --link-color: #000;
-  --link-hover-color: #000;
-  --color-4: #000;
-  --color-5: #000;
+  --bg-color: #FFFFFF;
+  --link-color: #FFEDA3;
+  --link-hover-color: #FFF1D0;
+  --color-4: #D4D4D4;
+  --color-5: #000000;
 
   --primary-font: sans-serif;
-  --secondary-font: serif;
+  --secondary-font: 'Quicksand', sans-serif;
   --main-text-color: #000;
 
   --white-space: 1rem;
@@ -63,7 +62,7 @@ footer {
   letter-spacing: -2px;
   padding-right: .75em;
   font-weight: bold;
-  color: white;
+  color: var(--color-5);
 }
 
 .header-wrapper h2 {
@@ -71,15 +70,18 @@ footer {
   color: rgba(255, 255, 255, 0.95);
   font-weight: bold;
   margin: var(--white-space) 0;
+    color: var(--color-5);
 }
 
 .header-wrapper h3 {
   font-size: 1.2rem;
   font-style: italic;
+    color: var(--color-5);
 }
 
 .header-wrapper h4 {
   font-size: 0.8rem;
+    color: var(--color-5);
 }
 
 main {
@@ -210,6 +212,11 @@ p.typography-sample {
   font-family: var(--secondary-font);
   line-height: 1.5;
   max-width: 960px;
+}
+
+a.typography-sample {
+    font-family: var(--secondary-font);
+    font-weight: 600;
 }
 
 strong {
