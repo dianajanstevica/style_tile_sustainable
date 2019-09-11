@@ -151,12 +151,9 @@ ul li:last-child {
   background: url(../img/honey.jpg) top left repeat;
 }
 
-.texture-swatch-1 {
-  background: url(../img/linen.jpg) top left repeat;
-}
 
 .texture-swatch-3 {
-  background: url(../img/white_paperboard.png) top left repeat;
+  background: url(../img/linen.jpg) top left repeat;
 }
 
 button {
